@@ -31,7 +31,7 @@ test('Guest shopper can checkout items as guest', async ({page}) => {
 })
 
 /**
- * Test that guest shoppers can use the product edit modal on cart page
+ * Test that guest shoppers can use the product edit modal on the cart page
  */
 test('Guest shopper can edit product item in cart', async ({page}) => {
     await addProductToCart({page})
